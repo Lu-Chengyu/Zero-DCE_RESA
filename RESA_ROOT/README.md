@@ -1,17 +1,11 @@
-# RESA 
-PyTorch implementation of the paper "[RESA: Recurrent Feature-Shift Aggregator for Lane Detection](https://arxiv.org/abs/2008.13719)".
-
-Our paper has been accepted by AAAI2021.
+# Zero-DCE_RESA 
 
 ## Introduction
-![intro](intro.png "intro")
-- RESA shifts sliced
-feature map recurrently in vertical and horizontal directions
-and enables each pixel to gather global information.
-- RESA achieves SOTA results on CULane and Tusimple Dataset.
+- Zero-DCE_RESA shifts sliced feature map recurrently in vertical and horizontal directions and enables each pixel to gather global information.
+- Zero-DCE_RESA achieves SOTA results on CULane and Tusimple Dataset.
 
 ## Get started
-1. Clone the RESA repository
+1. Clone the Zero-DCE_RESA repository
     ```
     git clone https://github.com/zjulearning/resa.git
     ```
