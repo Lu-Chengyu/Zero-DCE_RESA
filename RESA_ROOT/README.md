@@ -7,7 +7,7 @@
 ## Get started
 1. Clone the Zero-DCE_RESA repository
     ```
-    git clone https://github.com/zjulearning/resa.git
+    git clone https://github.com/Lu-Chengyu/Zero-DCE_RESA.git
     ```
     We call this directory as `$RESA_ROOT`
 
@@ -120,20 +120,3 @@ For example:
 python main.py configs/culane.py --validate --load_from culane_resnet50.pth --gpus 0 1 2 3 --view
 ```
 You will get the result in the directory: `work_dirs/[DATASET]/xxx/vis`.
-
-## Citation
-
-```BibTeX
-@misc{zheng2020resa,
-      title={RESA: Recurrent Feature-Shift Aggregator for Lane Detection}, 
-      author={Tu Zheng and Hao Fang and Yi Zhang and Wenjian Tang and Zheng Yang and Haifeng Liu and Deng Cai},
-      year={2020},
-      eprint={2008.13719},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
-```
-
-<!-- ## Thanks
-
-The evaluation code is modified from [SCNN](https://github.com/XingangPan/SCNN) and [Tusimple Benchmark](https://github.com/TuSimple/tusimple-benchmark). -->
